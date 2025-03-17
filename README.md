@@ -19,17 +19,12 @@ A simple and intuitive web application to track your daily moods and emotions.
 
 ## 🖼️ Screenshots
 
-```
-Add your application screenshots here:
-1. Main interface with mood buttons
-2. Daily view of mood entries
-3. Monthly calendar view
-4. Yearly summary view
-```
+![image](https://github.com/user-attachments/assets/953b8c27-5120-4503-8bce-189ab203d13f)
+
 
 ## 🚀 Live Demo
 
-[View Live Demo](#)
+[View Live Demo](https://mood-tracker-puce.vercel.app)
 
 ## 💻 Technologies Used
 
@@ -73,8 +68,8 @@ mood-tracker/
 
 Nandan Manna
 
-- GitHub: [@nandanNM](#)
-- LinkedIn: [https://www.linkedin.com/in/codernandan](#)
+- GitHub: [@nandanNM](https://github.com/nandanNM)
+- X: [@coder_nandan](https://x.com/coder_nandan)
 
 ---
 
