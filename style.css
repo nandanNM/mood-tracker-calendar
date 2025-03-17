@@ -1,0 +1,82 @@
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.mood-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.mood-button:hover {
+  transform: translateY(-3px);
+  background-color: #e0e0e0;
+}
+
+.mood-button span {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.mood-button {
+  font-size: 2rem; /* Makes emojis larger */
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-container .filter-btn.active {
+  background-color: #333;
+  color: white;
+}
+
+.mood-history {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.mood-entries .mood-entry-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mood-entries .mood-entry-card .emoji {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.mood-entries .mood-entry-card .date {
+  margin-left: auto;
+  font-size: 1.5rem;
+  color: #666;
+}

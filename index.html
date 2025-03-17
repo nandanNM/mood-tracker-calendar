@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- the mood buttons -->
+      <div class="buttons-container">
+        <button class="mood-button">😊<span>Happy</span></button
+        ><button class="mood-button">😢<span>Sad</span></button
+        ><button class="mood-button">😐<span>Neutral</span></button
+        ><button class="mood-button">🤩<span>Excited</span></button
+        ><button class="mood-button">😴<span>Tired</span></button
+        ><button class="mood-button">😡<span>Angry</span></button>
+      </div>
+      <!-- the filter section -->
+      <div class="filter-container">
+        <button class="filter-btn" data-filter="day">Day</button>
+        <button class="filter-btn" data-filter="month">Month</button>
+        <button class="filter-btn" data-filter="year">Year</button>
+      </div>
+      <!-- the history section -->
+      <div class="mood-history">
+        <h2>Mood History</h2>
+        <div class="mood-entries"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
